@@ -1,0 +1,78 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+<head prefix="">
+
+    <title>
+        Image4IO - Status Page
+    </title>
+
+    <meta charset="utf-8">
+    <meta content="View SugarCRM&#39;s real-time and historical operational status." name="description">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="/assets/state/polyfills-8c3d0f43c298c0e5d1b03b95a469980c95a0d2164c6328ef7215dbd939dbdfbf.js" name="polyfills">
+    <link href="~/StatusPage/hund-client-logos.s3.amazonaws.com/uploads/logo-dark.png" rel="shortcut icon">
+    <link href="~/StatusPage/hund-client-logos.s3.amazonaws.com/uploads/logo-dark-side.png" rel="apple-touch-icon-precomposed">
+    <link href="~/StatusPage/hund-client-logos.s3.amazonaws.com/uploads/logo-light-side.png" rel="icon">
+
+    <link rel="stylesheet" media="all" href="~/StatusPage/status.cloud.sugarcrm.com/assets/state/application-730f06f52bda277d81aa0e8954b95986e44cf514a3c28e174b817b0c1963428e.css" />
+
+    <script src="~/StatusPage/status.cloud.sugarcrm.com/assets/state/fonts-ec63007a2d1a514eaf1979e83872d9521c4532d5c14f8a9f6b96d55c5200c737.js"></script>
+    <meta name="csrf-param" content="authenticity_token" />
+    <meta name="csrf-token" content="vIpkiAPql+KUH2mkag7Hb+EcM5cY1MYIDFK0F+dZFIi66yQ9WgB15zXpcq/3C9+3nrtVC7FOWmZi/jKq4M0O0g==" />
+</head>
+
+<body class="font-features">
+    <div class="container">
+        <header>
+            <div class="title">
+                <a href="https://www.sugarcrm.com/">
+                    <img alt="Image4IO" width="300"  src="~/StatusPage/hund-client-logos.s3.amazonaws.com/uploads/logo-dark.png" />
+                </a>
+            </div>
+
+            <a id="toggle-nav-link" class="toggle-nav-link" href="javascript:void(0)">
+                <i class="toggle-nav-icon"></i>
+            </a><nav class="header-nav">
+                <a class="button nav-link" data-behavior="subscribe-button" data-render="/subscriptions/modal" href="subscriptions/new.html">Subscribe</a>
+            </nav>
+        </header>
+
+        @RenderBody()
+
+        <footer>
+            <div class='link-wrapper'>
+                <div class='attribution'><a href="https://image4.io/">Powered By Image4.io</a></div>
+                <ul class='locale-select sf-menu sf-up'>
+                    <li>
+                        <a class='locale'>English</a>
+                        <ul class='locales'><a rel="alternate" hreflang="es-AR" href="indexbd4b.html?locale=es-AR">Español (Argentina)</a><a rel="alternate" hreflang="da" href="indexa433.html?locale=da">Dansk</a><a rel="alternate" hreflang="de" href="index0d31.html?locale=de">Deutsch</a><a rel="alternate" hreflang="fr" href="indexf9ce.html?locale=fr">Français</a><a rel="alternate" hreflang="ja" href="index2362.html?locale=ja">日本語</a><a rel="alternate" hreflang="nl" href="indexaf37.html?locale=nl">Nederlands</a><a rel="alternate" hreflang="pt-BR" href="index4c33.html?locale=pt-BR">Português (Brasil)</a><a rel="alternate" hreflang="sv" href="index63fd.html?locale=sv">Svenska</a></ul>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+    
+    <script>
+        if (localStorage.getItem("logo_offset") !== null)
+        {
+            document.querySelectorAll(".header-nav")[0].style.top = localStorage.getItem("logo_offset") + "px";
+        }
+    </script>
+
+    <script>
+         window.TimestampableTimezone = "Etc/UTC";
+         window.TimestampableFormats = {"default":"%a, %d %b %Y %H:%M:%S %z","short":"%d %b %H:%M","long":"%b %e, %Y %-l:%M %p %Z","date":"%b %e, %Y","long_without_zone":"%b %e, %Y %-l:%M %p","range_from":"%b %e, %Y %-l:%M %p","range_to":"%-l:%M %p %Z","day":"%B %e, %Y"};
+         window.TimestampableTranslations = {"distance_in_words":{"half_a_minute":"half a minute","less_than_x_seconds":{"one":"less than 1 second","other":"less than %{count} seconds"},"x_seconds":{"one":"1 second","other":"%{count} seconds"},"less_than_x_minutes":{"one":"less than a minute","other":"less than %{count} minutes"},"x_minutes":{"one":"1 minute","other":"%{count} minutes"},"about_x_hours":{"one":"about 1 hour","other":"about %{count} hours"},"x_days":{"one":"1 day","other":"%{count} days"},"about_x_months":{"one":"about 1 month","other":"about %{count} months"},"x_months":{"one":"1 month","other":"%{count} months"},"about_x_years":{"one":"about 1 year","other":"about %{count} years"},"over_x_years":{"one":"over 1 year","other":"over %{count} years"},"almost_x_years":{"one":"almost 1 year","other":"almost %{count} years"}},"duration":"Lasted %{duration}","past":"%{time} ago"};
+    </script>
+
+    <script src="~/StatusPage/status.cloud.sugarcrm.com/assets/state/application-75a73c92a03d421300a6cc2baede8f6fe19c9ee909d824a41e03547dfd45e7c6.js"></script>
+    <script src="~/StatusPage/status.cloud.sugarcrm.com/assets/state/hund-226527b52e9e47bae2275130430ee739bbe267b47c5285683f68460e3c56d274.js"></script>
+
+</body>
+</html>

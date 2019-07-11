@@ -1,0 +1,6 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+status.cloud.sugarcrm.com	TRUE	/	FALSE	1999999999	fbt	ImxibDM1NHo5dHZoVU9mUFE4ZzY3OWc9PSI%3D--3fcd1c4b6f457a42730265f2b78c3a823ac3db08
+status.cloud.sugarcrm.com	TRUE	/	FALSE	1999999999	locale	ja
+status.cloud.sugarcrm.com	TRUE	/	FALSE	1999999999	_hund_session	YzZwYlhnRU05MVREQkhCeC9wUitGK2NPUXlyY28yL0ROZzN6cTRGTUZzLy9zQ1Z2UHBWTnlqVW1aS3pmSjNTTXRUY3BvaWs0eFdCK2duYWNvY0h1WVhGaDI2aU8yYkMvZS9yenJYSFVtWStaM0dWYk4wRTJVdUExWE4zd29lMDAvTTlXMDhtemlWWTNmaGhSUXFCaDZRPT0tLW9vQW1Ic0hIek01MUVpRk5WdkJZemc9PQ%3D%3D--52451e9148d19e796b3d52391ae098e713d1f291
+
